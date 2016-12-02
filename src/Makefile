@@ -1,3 +1,7 @@
+CC	= sdcc  
+AS	= sdas8051
+LD	= sdld
+
 OPT := sdcc
 
 
