@@ -20,7 +20,7 @@ void main(void)
             LED01 ^= 1;
             LEDFlash ^= 1;
 
-	    delay(1000);
+	    delayms(1000);
             timer0_update();
         }
 
