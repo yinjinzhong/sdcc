@@ -3,6 +3,7 @@
 1. 编译软件：sdcc --- sudo apt install sdcc
 2. 下载软件：gSTC-ISP
 3. 安装问题：
+
 - sdcc一般不会出现问题
 - gSTC-ISP时（依次./configure，make，make，install)。
 - ./configure时可能会出现要求依赖GTK+的情况，sudo apt-get install GTK+2.0可以解决这个问题。
