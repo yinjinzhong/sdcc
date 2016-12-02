@@ -4,6 +4,7 @@ Compiler:MCS-51 MCU SDCC Compiler
  */
 
 #include "main.h"
+#include "delay.h"
 
 void main(void)
 {
@@ -19,6 +20,7 @@ void main(void)
             LED01 ^= 1;
             LEDFlash ^= 1;
 
+	    delay(1000);
             timer0_update();
         }
 
